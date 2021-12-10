@@ -1,0 +1,121 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+header{   
+    background-color: rgb(168, 247, 243);    
+    text-align: center; 
+    padding: 20px;
+}
+
+header>h1{
+    color:black;
+}
+
+body{
+    background-color: black;
+    color : white;
+}
+
+.choices{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.choice{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.choice img{
+    border-radius: 80px;
+    box-shadow: 0px 0px 1px 5px white;
+}
+
+.score_board{
+    margin: 20px auto;
+    border: 3px solid white;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+    font-size: 50px;
+    padding: 20px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.badge{
+    background-color: rgb(168, 247, 243);
+    color:black;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 2px 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#user-label
+{
+    position: absolute;
+    top: 35px;
+    left: -41px;
+}
+
+#comp-label
+{
+    position: absolute;
+    top: 35px;
+    right: -48px;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+/* #action-message{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 10px;
+} */
+
+.green_glow{
+    border: 4px solid #4dcc7d;  
+    box-shadow: 0 0 10px #31b43a;
+    margin: 15px;
+    padding: 5px;
+    padding-bottom: 0px;
+    border-radius: 80px;
+    margin-top: -4px;
+}
+
+.red_glow{
+    border: 4px solid #fc121b;
+    box-shadow: 0 0 10px #d01115;
+    margin: 15px;
+    padding: 5px;
+    padding-bottom: 0px;
+    border-radius: 80px;
+    margin-top: -4px;
+}
+
+.blue_glow{
+    border: 4px solid rgb(252, 255, 57) ;
+    box-shadow: 0 0 10px rgb(252, 255, 57);
+    margin: 15px;
+    padding: 5px;
+    padding-bottom: 0px;
+    border-radius: 80px;
+    margin-top: -4px;
+} 
